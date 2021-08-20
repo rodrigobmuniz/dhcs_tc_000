@@ -45,7 +45,6 @@ const getBooksByAuthor = (authorName) => {
 }
 
 module.exports = {
-    helloWorld,
     getAllBooks,
     getBookByName,
     getBooksByAuthor,

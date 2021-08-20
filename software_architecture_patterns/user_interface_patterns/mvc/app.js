@@ -1,5 +1,5 @@
 const express = require('express')
-const { helloWorld, getAllBooks, getBookByName, getBooksByAuthor } = require('./src/books')
+const { getAllBooks, getBookByName, getBooksByAuthor } = require('./src/books')
 const app = express()
 const port = 3000
 
