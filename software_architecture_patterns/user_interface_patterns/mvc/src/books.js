@@ -29,10 +29,6 @@ class BookStore {
 
 }
 
-const helloWorld = () => {
-    return 'Hello World!'
-}
-
 const getAllBooks = () => {
     const bookStore = new BookStore()
     return bookStore.getBooks()

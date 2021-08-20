@@ -3,10 +3,6 @@ const { helloWorld, getAllBooks, getBookByName, getBooksByAuthor } = require('./
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
-    res.send(helloWorld())
-})
-
 app.get('/book', (req, res) => {
     res.send(getAllBooks())
 })
